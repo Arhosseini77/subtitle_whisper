@@ -41,5 +41,6 @@ This project utilizes the Whisper model for automatic speech recognition to gene
 
 - The script `main.py` is configured to run with the paths specified within the script. Modify the paths according to your local setup.
 - The transcription is currently set to the 'fa' (Farsi) language. If you want to transcribe in a different language, modify the `language` parameter in the `generate_subtitles` function call inside `module.py`.
+- Ensure that the output file path specified in `main.py` has a `.srt` extension as the script generates subtitles in SRT format.
 
 ---
