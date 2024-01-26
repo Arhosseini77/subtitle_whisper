@@ -43,4 +43,8 @@ This project utilizes the Whisper model for automatic speech recognition to gene
 - The transcription is currently set to the 'fa' (Farsi) language. If you want to transcribe in a different language, modify the `language` parameter in the `generate_subtitles` function call inside `module.py`.
 - Ensure that the output file path specified in `main.py` has a `.srt` extension as the script generates subtitles in SRT format.
 
+## Acknowledgments
+
+Special thanks to the team behind the Whisper model for providing an excellent tool for speech recognition. Their work can be found and utilized at [Whisper GitHub repository](https://github.com/openai/whisper.git). Additional gratitude goes to Dmitrii Lukianov for his insightful article, ["Generating Subtitles for YouTube Videos with OpenAI Whisper"](https://medium.com/akvelon/generating-subtitles-for-youtube-videos-with-openai-whisper-72b1f9a594ea), which provided valuable knowledge and guidance for this project.
+
 ---
